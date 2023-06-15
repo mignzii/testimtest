@@ -30,8 +30,7 @@ jobs:
           username: ${{ secrets.MAIL_ADDRESS}}
           password: ${{ secrets.MAIL_PASSWORD}}
           subject: "Nouveau fichier"
-          body: "Un nouveau fichier a été créé et ajouté en pièce jointe."
+          body: "Un nouveau fichier a été créé et ajouté en pièce jointe. Merci"
           from: ${{ secrets.MAIL_ADDRESS }}
           to: "mignzii99@gmail.com"
-          attachments: |
-            ${{ runner.workspace }}/fichier.txt
+          attachments: fichier.txt
