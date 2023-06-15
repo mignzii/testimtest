@@ -22,8 +22,8 @@ jobs:
           name: fichier
           path: fichier.txt
 
-      - name: Send email
-        uses: devellany/send-mailer@v1.0.2
+      - name: Send mailer
+        uses: devellany/send-mail@v1.0.2
         with:
           host: smtp.google.com
           port: 465
