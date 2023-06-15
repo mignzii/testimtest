@@ -27,8 +27,8 @@ jobs:
         with:
             server_address: smtp.gmail.com
             server_port: 587
-            username: ${{ secrets.MAIL_ADDRESS }}
-            password: ${{ secrets.MAIL_PASSWORD }}
+            username: ${{ secrets.MAIL_ADDRESS}}
+            password: ${{ secrets.MAIL_PASSWORD}}
             subject: "Nouveau fichier"
             body: "Un nouveau fichier a été créé et ajouté en pièce jointe."
             from: ${{ secrets.MAIL_ADDRESS }}
