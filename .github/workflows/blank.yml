@@ -32,5 +32,5 @@ jobs:
             subject: "Nouveau fichier"
             body: "Un nouveau fichier a été créé et ajouté en pièce jointe."
             from: ${{ secrets.MAIL_ADDRESS }}
-            to: "recipient@example.com"
+            to: "mignzii99@gmail.com"
             attachments: ${{ runner.workspace }}/fichier.txt
